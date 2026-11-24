@@ -1133,7 +1133,7 @@
         gsap.registerPlugin(ScrollTrigger);
 
         // Stripe publishable key (safe to expose in the frontend; the secret key stays in Vercel env vars)
-        const stripe = Stripe('pk_live_51UdzgN6NKK0RtL0KJXgmrFzoW7CCPrPoC4r3LIsalSf6FQukHtbQYtbsVyfUNI06wtWi8KE0RMP8K3qPfz2FuWvL008Tyd6nOe');
+        const stripe = Stripe('xxx');
 
         // Backend endpoint that creates the Stripe Checkout Session and returns a hosted checkout URL.
         const API_URL = 'https://ghulam-z-backend.vercel.app/create-checkout-session';
